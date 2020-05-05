@@ -2,43 +2,114 @@ https://codepen.io/mkbotoman/pen/zYvpmGQ?editors=1100
 
 1. What is Semantic HTML? 
 HTML that gives meaning to our content
+
 2. What is HTML used for? 
 It's used to give structure to the content of the page
+
 3. What is an attribute and where do we put it? 
+Attributes are different pieces of information about a tag. They got in the opening tag.
+
 4. What is the h1 tag used for? How many times should I use it on a page?
+h1 is used to show the most important thing on the page. It should only be used once.
+
 5. Name two tags that have required attributes
+a and img 
+
 6. What do we put in the head of our HTML document? 
-7. What is an id? 
+Information about the document such as title, keywords, description.
+
+7. What is an id?
+A unique identifier for an element.
+
 8. What elements can I add an id to? 
+Any element can have an id 
+
 9. How many times can I use the same id on a page? 
+Once
+
 10. What is a class? 
+A class is an attribute that identified elements witht he same style
+
 11. What elements can I add a class to? 
+Any element can have a class.
+
 12. How many times can I use the same class on a page? 
+As many as you want.
+
 13. How do I get my link to open in a new tab?
+target="_blank"
+
 14. What is the alt attribute in the image tag used for? 
+alt is a descriptor of the image. It is used when the image cannot be displayed or for users using assistive technologies such as screenreaders.
+
 15. How do I reference an id?
+#[id_name]
+
 16. What is the difference between a section and a div
-17. What is CSS used for? 
+Sections are semantically denoting parts of the page. divs are stylist separations.
+
+17. What is CSS used for?
+Styling (HTML is what is on the page, CSS is how it looks, JS is what it does)
+
 18. How to we select an element? Example - every h2 on the page
+[element_name] { }
+
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
+An id is a unique identifier while a class is a descriptor for style. I might use a class if I needed to make three pagagraphs blue, while all the others stayed the default. I might use an id if I needed to get the value of one specific form field.
+
 20. How do we select classes in CSS?
+.[class_name] { }
+
 21. How do we select a p element with a single class of “human””?
+p.human { }
+
 22. What is a parent child selector? When would this be useful? 
+A parent child selector is a way to take all of the elements within a higher level element. For example all of the p tags within a section called .about would be denoted as .about p {}. This can be helpful for increasing specificity.
+
 23. How do you select all links within a div with the class of sidebar?
+.sidebar a { }
+
 24. What is a pseudo selector?
+An addition to a call based on state. For example :hover, :checked, :last-child.
+
 25. What do we use the change the spacing between lines?
+line-spacing
+
 26. What do we use to change the spacing between letters?
+letter-spacing
+
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercase, lowercase, capitalize
+
 28. How do I add a 1px border around my div that is dotted and black?
+border: 1px dotted black;
+
 29. How do I select everything on the page? 
+* { }
+
 30. How do I write a comment in CSS?
+/* this is a CSS comment */
+
 31. How do I find out what file I am in, when I am using the command line? 
+pwd
+
 32. Using the command line - how do I see a list of files/folders in my current folder?
+ls 
+
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm [fileName]. This is risky because it is not reversable.
+
 34. Why should I use version control? 
+To see the working history of a project and be able to move forward and backwards through time.
+
 35. How often should I commit to github?
+Whenever you hit a new working state or approx every 20 minutes. 
+
 36. What is the command we would use to push our repo up to github? 
+git push or git push -u origin [branchName]
+
 37. Walk me through Lambda's git flow. 
+Fork the project, add TL as collaborator, clone the project, cd into the project, checkout a branch named 'firstName-lastName', do your work, add all the files, commit them with a descriptive message, push it up to a branch in github, go to github, create a PR, add the TL and a reviewer.
 
 Stretch Questions
 
